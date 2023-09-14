@@ -2,7 +2,7 @@ import css from './FeedbackOptions.module.css';
 
 export default function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
-    <div>
+    <div className={css.container}>
       {options.map(option => (
         <button
           key={option}
